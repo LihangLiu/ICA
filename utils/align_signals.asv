@@ -1,0 +1,20 @@
+function [ X, Y ] = align_signals( X, Y )
+% X: (n,t)
+% Y: (n,t)
+
+   [n,t] = size(X);
+   new_Y = Y;
+   for i=1:n
+       min_diff = 100000;
+       for j=i:n
+           c_diff = 
+          if   
+       end
+   end
+
+
+end
+
+function diff = VecDiff(v1, v2)
+    diff = min(std(v1(:)-v2(:)), v1(:)-v2(:), 
+end
