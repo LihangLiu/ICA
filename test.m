@@ -13,7 +13,7 @@ addpath('utils');
 
 %% sounds.mat
 load('sounds.mat');
-U = sounds([1 2 3 4 5],1:200);
+U = sounds(1:5,1:1000);
 % U(2,:) = 100*U(2,:);
 % U = norm_signals(U);
 [n,t] = size(U);

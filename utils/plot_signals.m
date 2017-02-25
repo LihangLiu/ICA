@@ -20,8 +20,8 @@ function plot_signals( U,Y,ifAlign )
             plot(U(i,:),'b'); hold on;
             plot(Y(i,:),'r'); hold off;
         end
-        diff = MatrixDiff(U,Y);
-        title(sprintf('diff %f',diff));
+%         diff = MatrixDiff(U,Y);
+%         title(sprintf('diff %f',diff));
     else
         % plot
         figure;

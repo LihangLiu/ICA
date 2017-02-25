@@ -26,7 +26,8 @@ function [ Y, W ] = ica( U, A, R_max, eta)
         W = W + eta*delta_W;
         if mod(i,10000)==1
 %             eta*exp(-i*0.00001)
-            plot_signals(U,Y, 1);
+%             plot_signals(U,Y, 1);
+            
         end
     end
 
